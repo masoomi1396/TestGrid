@@ -1,0 +1,234 @@
+body {
+  background: linear-gradient(90deg, #29323c 0%, #485563 100%);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin: 80px 160px;
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+  padding-top: 50px;
+  width: 1440px;
+  height: 1050px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#Header {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#Header > header {
+  width: 100%;
+}
+#Header > header > nav {
+  width: 100%;
+}
+#Header > header > nav > ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#Header > header > nav > ul > li {
+  text-transform: uppercase;
+  flex-grow: 1;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3c3c3c;
+}
+#Header > header > nav > ul > li:nth-of-type(3) {
+  font-size: 60px;
+  line-height: 86px;
+}
+#Header > section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Header > section > h5 {
+  padding: 20px 10px;
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 1px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/*********Header********3-1******/
+#mainBody {
+  width: 100%;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: 25px 358px 480px;
+}
+#mainBody > div:nth-of-type(1) {
+  grid-column: 1/span 3;
+  background-color: #676c79;
+}
+#mainBody > div:nth-of-type(2) {
+  grid-column: 1/span 2;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+#mainBody > div:nth-of-type(2) > h2 {
+  margin-right: 50px;
+  margin-left: 25px;
+  width: 100%;
+  font-size: 61px;
+  font-family: "Lancelot";
+  line-height: 65px;
+  color: black;
+  font-weight: 400;
+}
+#mainBody > div:nth-of-type(2) > p {
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 28px;
+}
+#mainBody > div:nth-of-type(2) > h3 {
+  margin-left: 25px;
+  font-weight: 800;
+  color: black;
+  font-family: Lato;
+  font-size: 30px;
+}
+#mainBody > div:nth-of-type(2) > section {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#mainBody > div:nth-of-type(2) > section > span {
+  color: white;
+  background-color: #6b5027;
+  padding: 10px;
+  margin-right: 25px;
+  margin-top: 3px;
+}
+#mainBody > div:nth-of-type(2) > section > div {
+  margin-left: 25px;
+  flex-grow: 3;
+  margin-top: 5px;
+  position: relative;
+}
+#mainBody > div:nth-of-type(2) > section > div::after {
+  content: "";
+  width: 340px;
+  height: 5px;
+  background-color: #6b5027;
+  position: absolute;
+  top: 25px;
+  left: 2px;
+}
+#mainBody > div:nth-of-type(3) {
+  grid-column: 3/span 1;
+  border: 2px solid black;
+}
+#mainBody > div:nth-of-type(3) figure {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+#mainBody > div:nth-of-type(3) figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#mainBody > div:nth-of-type(4) {
+  grid-column: 1/span 2;
+  border: 2px solid black;
+}
+#mainBody > div:nth-of-type(4) figure {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+#mainBody > div:nth-of-type(4) figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#mainBody > div:nth-of-type(5) {
+  grid-column: 3/span 1;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+#mainBody > div:nth-of-type(5) > h2 {
+  margin-right: 50px;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 49px;
+  font-family: "Lancelot";
+  line-height: 65px;
+  color: black;
+  font-weight: 400;
+}
+#mainBody > div:nth-of-type(5) > p {
+  width: 100%;
+  margin-right: 30px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 28px;
+}
+#mainBody > div:nth-of-type(5) > section {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#mainBody > div:nth-of-type(5) > section > span {
+  color: white;
+  background-color: #6b5027;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+#mainBody > div:nth-of-type(5) > section > div {
+  margin-left: 25px;
+  flex-grow: 3;
+  margin-top: 5px;
+  position: relative;
+}
+#mainBody > div:nth-of-type(5) > section > div::after {
+  content: "";
+  width: 340px;
+  height: 5px;
+  background-color: #6b5027;
+  position: absolute;
+  top: 25px;
+  left: 2px;
+}/*# sourceMappingURL=master.css.map */
